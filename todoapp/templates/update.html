@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+    
+    <div class="container">
+        <form action="{% url 'update' todo_id %}" method="POST">
+            {% csrf_token %}
+                <input type="text" name="todo" id="">
+                <input type="submit" value="update" name="update">
+        </form>
+    </div>
+
+
+{% endblock  %}
+    

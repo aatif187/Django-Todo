@@ -1,0 +1,65 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.nav {
+    background-color: rgb(5, 0, 12);
+    background: rgb(5, 0, 12);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#todoID{
+    background: #14213d;
+    background-color: #14213d;
+    text-align: left;
+    color: white;
+}
+.yrTodo{
+    padding-left: 15px;
+    background-color: white;
+    background: white;
+    color: #000;
+    font-weight: bolder;
+}
+#addTodoID{
+    background: rgb(18, 4, 20);
+    background-color: rgb(18, 4, 20);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.addButton{
+    color: rgb(8, 8, 8);
+   font-weight: bold;
+    background: #fca311;
+    
+}
+
+.update{
+    color: rgb(0, 0, 0);
+   font-weight: bold;
+    background: #ff9500;
+    align-content: flex-end;
+    float: right;
+}
+
+.delete{
+    color: rgb(255, 255, 255);
+   font-weight: 300;
+    background: rgb(209, 37, 7);
+    float: right;
+}
+.complete{
+    color: rgb(8, 8, 8);
+   font-weight: bold;
+    background: rgb(27, 177, 7);
+    float: right;
+}
